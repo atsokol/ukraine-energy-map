@@ -18,10 +18,10 @@ resources <- read_csv(input_csv, show_col_types = FALSE)
 base_url <- "https://energy-map.info/api/v1/resources/"
 
 for (i in seq_len(nrow(resources))) {
-  this_uuid  <- resources$uuid[i]
+  this_uiid  <- resources$uiid[i]
   this_name  <- resources$file[i]
   
-  full_url <- paste0(base_url, this_uuid, "/download/")
+  full_url <- paste0(base_url, this_uiid, "/download/")
   
   params <- list(
     format   = "csv",
@@ -32,7 +32,7 @@ for (i in seq_len(nrow(resources))) {
   
   # Check for HTTP errors
   if (http_error(resp)) {
-    warning("Failed to download UUID ", this_uuid,
+    warning("Failed to download UIID ", this_uuid,
             " (HTTP ", status_code(resp), "). Skipping.")
     next
   }
