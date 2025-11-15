@@ -1,0 +1,6 @@
+resource,uiid,file
+hourly DAM price,5a616fba-fbc9-4073-9532-9161592faca8,DAM_prices_hourly.csv
+DAM indexes and weighted average prices,c6218b35-ce7e-45c2-925e-5c8e6f5eb9fb,DAM_prices
+DAM indexes of Ukraine and neighboring countries,5bee4464-ba9f-4117-a4ca-f71584bd5f54,DAM_prices_UA_EU.csv
+DAM price caps,cc738a86-c28e-4a3a-86b6-bd965fd27663,UA price caps.csv
+IDM results,f0afe3f3-9d72-4e3e-a863-8812b8912bce,IDM_results.csv
