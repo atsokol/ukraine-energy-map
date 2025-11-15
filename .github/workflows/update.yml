@@ -20,11 +20,9 @@ jobs:
           packages: |
             any::readr
             any::dplyr
-            any::stringr
             any::jsonlite
             any::httr
             any::lubridate
-            any::xts
 
       - name: Check out repository
         uses: actions/checkout@v3

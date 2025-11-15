@@ -3,7 +3,6 @@ library(httr)
 library(readr)
 library(lubridate)
 library(dplyr)
-library(tidyr)
 
 source("R code/helper_functions.R")
 
