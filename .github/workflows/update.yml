@@ -2,7 +2,7 @@ name: Monthly Data Update
 
 on:
   schedule:
-    - cron: '0 20 8 * *'
+    - cron: '0 23 1 * *'
   workflow_dispatch:
   
 permissions:
